@@ -1,0 +1,10 @@
+DataTable {
+    z-index: -20;
+    background-color: blue;
+  }
+  
+  /* dt.css */
+.custom-header {
+  background-color: aqua
+  color(srgb red green blue)/* Set the text color for the header */
+}
