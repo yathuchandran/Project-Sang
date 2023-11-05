@@ -81,7 +81,6 @@ function Hse() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     formDatas.body.push(formBody);
-    console.log(formDatas, "wwwwwwwwwwwwwwwwwwwwwww");
     const formDataObject = new FormData();
     formDataObject.append("Body", JSON.stringify(formDatas));
     console.log(formDataObject, "formDataObject", 89);
@@ -141,8 +140,6 @@ function Hse() {
           "http://103.120.178.195/HSEAPI/Ray/GetEmployee"
         );
         const result = await res.data;
-
-        // console.log(JSON.parse(res.data.ResultData),"ResultData ResultData 127777777777777777777");
         console.log(
           res.data.ResultData,
           126,
